@@ -2,26 +2,30 @@ package org.homeworksubmission;
 
 public class cat {
 
+    int sum(int integer1,
+            int integer2){
 
-    void sum(int integer1,
-    int integer2){
         int sum = integer1 + integer2;
         System.out.println(sum);
+        return sum;
     }
-    void sub(int integer1,
+    int sub(int integer1,
              int integer2){
         int sum = integer1 - integer2;
         System.out.println(sum);
+        return sum;
     }
-    void mul(int integer1,
+    int mul(int integer1,
              int integer2){
         int sum = integer1 * integer2;
         System.out.println(sum);
+        return sum;
     }
-    void div(int integer1,
+    int div(int integer1,
              int integer2){
         int sum = integer1 / integer2;
         System.out.println(sum);
+        return sum;
     }
 
     public static void main(String[] args) {
